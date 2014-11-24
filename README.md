@@ -13,6 +13,13 @@ And show the graph to compare those two.
 
 	$ python bayesian_lr.py
 
+### Graph
+
+- Green: Normal linear regression
+- Blue:  Bayesian linear regression
+
+![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/graph.png)
+
 ### Logic
 
 The function is as following in general :
@@ -25,13 +32,13 @@ Use the "Gaussian distribution" as the basis function.
 
 Assuming s = 0.1, c_i = [0.0, 0.1, ..., 1.0]. 
 
-(1) Normal linear regression
+**(1) Normal linear regression**
 
 These "omega" can be solved by this equation.
 
 ![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/omega_equation.jpg)
 
-(2) Bayesian linear regression
+**(2) Bayesian linear regression**
 
 The posterior distribution is expressed as following.
 
@@ -50,14 +57,6 @@ This time, I assume alpha = 0.1, beta = 9.0.
 Phi is the matrix as following.
 
 ![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/Phi.jpg)
-
-
-### Graph
-
-- Green: Normal linear regression
-- Blue:  Bayesian linear regression
-
-![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/graph.png)
 
 ### Numpy
 
