@@ -35,8 +35,8 @@ These "omega" can be solved by this equation.
 
 The posterior distribution is expressed as following.
 
-![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/posterior_1.jpg)
-![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/posterior_2.png)
+![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/posterior_1.jpg)  
+![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/posterior_2.jpg)  
 ![Graph](https://raw.githubusercontent.com/takp/bayesian-linear-regression/master/images/posterior_3.jpg)
 
 The posterior distribution is Gaussian distribution, so the most possible value is :
